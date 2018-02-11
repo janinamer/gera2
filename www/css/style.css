@@ -1,0 +1,315 @@
+/******* Globale Einstellung ******/
+@font-face {
+    font-family: roboto;
+    src: url(fonts/roboto-black.ttf);
+}
+html,body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+    padding: 0;
+}
+
+font-family: 'Roboto', sans-serif;
+
+* {
+    box-sizing: border-box;
+    outline: 1px solid black;
+}
+
+.header{
+    display: flex;
+}
+
+
+.zweiteseite {
+        height: 60vh;
+    position: absolute;
+    width: 100vw;
+    z-index: 9999999;
+    top: 20vh;
+    
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family:'Roboto';
+    src: url(font/Roboto-Regular.ttf);
+    src: url(font/Roboto-Medium.ttf);
+    src: url(font/Roboto-Light.ttf);
+}
+
+.logo {
+    background-image: url(../img/Logo_start.png);
+    background-size: 25% auto;
+    background-repeat: no-repeat;
+    background-position: center top 17vw;
+}
+
+.logo2 {
+    background-image: url(../img/logo2.png);
+    background-size: 20% auto;
+    background-repeat: no-repeat;
+    background-position: center top 60vw;
+    opacity: 0.7;
+   
+    
+}
+
+.logowecker {
+    background-image: url(../img/logo2.png);
+    background-size: 35% auto;
+    background-repeat: no-repeat;
+    background-position: center top 5vw;
+    opacity: 0.7;
+   
+    
+}
+
+.swipeicon {
+    background-image: url(../img/Swipe_Punkte.png);
+    background-size: 20% auto;
+    background-repeat: no-repeat;
+    background-position: center top 15vw;
+    
+}
+
+
+.menueicon {
+    background-image: url(../img/Menu_icon.png);
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    background-position: left 2vw top 8vw;
+    
+    
+}
+
+.tonicon {
+    background-image: url(../img/Headphones.png);
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    background-position: right 2vw top 9vw;
+    
+}
+
+.schrift {
+    color: white;
+    font-size: 27;
+    font-family: roboto;
+    letter-spacing: 5px; 
+    text-align: center;
+    
+   
+    
+}
+
+.schrift2 {
+    color: black;
+    font-size: 27;
+    font-family: roboto;
+    letter-spacing: 5px;
+    text-align: center ;
+    
+   
+   
+}
+
+.bild1 {
+    background-image: url(../img/BeiNacht_Bild.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: left 40%;
+    outline: none;
+    padding-top: 50%;
+    
+}
+    
+    
+.bild2 {
+    background-image: url(../img/Untermhaus_Bild.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: left 40%;
+    outline: none;
+    padding-top: 50%;
+    
+    
+}
+  
+.bild3 {
+    background-image: url(../img/Wald_Bild.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: left 100%;
+    outline: none;
+    padding-top: 50%;
+    
+}
+
+.bild4 {
+    background-image: url(../img/Tomaten_Bild.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: left 40%;
+    outline: none;
+    padding-top: 50%;
+    
+}
+
+.bild5 {
+    background-image: url(../img/Yoga_Bild.jpg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left 40%;
+    outline: none;
+    padding-top: 50%;
+    
+}
+
+.bild6 {
+    background-image: url(../img/Wecker_Bild.jpg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    background-position: left 40%;
+    outline: none;
+    padding-top: 50%;
+    
+}
+
+
+.menuicon {
+    background-image: url(../img/Menu_icon.png);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    background-position: left 30vp;
+    outline: none;
+}
+  
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.f-1 {
+    flex:1;
+    flex-basis: 50%;
+    flex-grow: 0;
+}
+
+button {
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.cPager-body-home2 {
+    
+    background-image: url(../img/Animiertes_Poster3.gif);
+    background-repeat: no-repeat;
+    background-size: auto 100% ;
+    background-position: 0 0;
+}
+
+.cPager-body-home3 {
+    
+    background-image: url(../img/BeiNacht_Bild.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100% ;
+    background-position: 0 0;
+}
+
+.cPager-body-home5 {
+    
+    background-image: url(../img/Avocados_Bild.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100% ;
+    background-position: 0 0;
+}
+
+.cPager-body-home4 {
+    
+    background-image: url(../img/Feigen_Bild.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100% ;
+    background-position: 0 0;
+}
+
+.cPager-body-home6 {
+    
+    background-image: url(../img/Tomaten_Bild.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100% ;
+    background-position: 0 0;
+}
+
+.bg6 {
+    
+    background-image: url(../img/Wecker_Bild.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100% ;
+    background-position: 0 0;
+}
+
+
+.cPager-body-home7 {
+    background-image: url(../img/Kaffee.jpg);
+    background-size: 120% auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    
+    
+}
+
+/* ich bin das Raster **/
+.h10 {height: 10vh;}
+.h20 {height: 20vh;}
+.h30 {height: 30vh;}
+.h40 {height: 40vh;}
+.h50 {height: 50vh;}
+.h60 {height: 60vh;}
+.h80 {height: 80vh;}
+.h100 {height: 100vh;}
+.w100 {width: 100vw;}
+.w50 {width: 50vw;}
+.w20 {width: 20vw;}
+.w10 {width: 10vw;}
+
+
+
+.icon {
+    background-repeat: no-repeat;
+    background-size: auto 50%;
+    background-position: 98% center;
+}
+
+
+.arrow-r {
+    background-image: url(img/pfeilr.png);
+}
+
+
+
+
+
+
+/******* End of Globale Einstellung ******/
+
+/**** stlye für die Home ****/
+
+
+.home {
+    background color: white;
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    background-position: right bottom;
+
+}
+
